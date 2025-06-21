@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+header{
+    background-color: rgb(148, 219, 247);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+img{
+    width: 10%;
+    height: 50%;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 1s ease;
+}
+
+li a:hover{
+    background-color: rgb(226, 226, 34);
+}
+
+main{
+    background-color: rgb(8, 29, 43);
+    color: white;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#btn-execute{
+    cursor: pointer;
+    background-color: rgb(148, 203, 247);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 1s ease;
+}
+
+#btn-execute:hover{
+    background-color: rgb(89, 142, 221);
+}
+
+#system{
+    display: grid;
+
+}
+
+li {
+    background-color: rgb(236, 236, 71);
+}
+
+.nav-bar ul{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 100px 100px;
+    border: none;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+
+}
+
+footer {
+    background-color: rgb(148, 219, 247);
+    border-top: 1px solid black;
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    height: 200px; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; 
+    justify-content: center;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(23, 55, 199);
+    color: yellow;
+    transition: rgb(54, 54, 231);
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    background-color: rgb(64, 64, 226);
+    transform: translateY(-3px);
+}
+
+/* Estilos para dispositivos con un ancho máximo de 480px (móviles pequeños) */
+@media (max-width: 480px) {
+    /* Header */
+    header {
+        padding: 0.8rem 2%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Main */
+    main {
+        height: auto;
+        padding: 1rem;
+        justify-content: flex-start;
+    }
+
+    /* Footer */
+    footer {
+        padding: 1rem 3%;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .social-links a {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para dispositivos con un ancho máximo de 768px (tabletas y móviles grandes) */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 1rem 3%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Main */
+    main {
+        height: auto;
+        padding: 1.5rem;
+        justify-content: flex-start;
+    }
+
+    /* Footer */
+    footer {
+        padding: 1.5rem 4%;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links {
+        margin-top: 1.5rem;
+        justify-content: center;
+    }
+
+    .social-links a {
+        width: 38px;
+        height: 38px;
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    
+    header {
+        padding: 1.2rem 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    main {
+        height: auto;
+        padding: 2rem;
+        justify-content: flex-start;
+    }
+
+    
+    footer {
+        padding: 1.5rem 5%;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links {
+        margin-top: 1.5rem;
+        justify-content: center;
+    }
+
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
+
