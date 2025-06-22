@@ -16,7 +16,7 @@ sistema_interactivo.js: JavaScript file located within the javascript folder, wh
 Orientatest-logotipo.webp: Logo of the page, saved in the img folder located inside the src directory. This was done by specifying the path when using the <img> tag in the HTML.
 
 
-### FEATURES
+## FEATURES
 
 Data Entry: The user must enter their name and age in the corresponding fields.
 
@@ -25,32 +25,36 @@ Validation: If any of the fields are empty or if the age is not a valid number, 
 Dynamic Message: If the data is valid, the system generates a personalized message that changes depending on whether the age is under or over 18 years old.
 
 
-#### CODE DESCRIPTION:
+## 🧾 CODE DESCRIPTION:
 
-The data is entered through HTML, and the programming logic is handled by JavaScript.
+```
+/ (SYSTEM-INTERACTIVE-MESSAGES)
+│
+├── index.html
+├── README.md
+├── LICENSE                                         
+└── /src
+    ├── /css
+    │   └── styles.css
+    │
+    ├── /img
+    │   └── Orientatest-logotipo.webp
+    │
+    └── /javascript
+        └── sistema_interactivo.js
 
-Data Collection: When the submit button (btn-execute) is clicked, the values from the name and age fields are retrieved.
+```
 
-Field Validation: If any field is empty or if the age is not a valid number, an error message is displayed.
+## 🚀 How to use?
 
-Message Generation: If the age is valid, a welcome message is generated, which varies depending on whether the user is under or over 18 years old.
-The styles are simple and effective, featuring a clean, easy-to-navigate interface.
+-Clone or download the files to your local machine.
 
-A soft color scheme is used to enhance the user experience.
+-Open the index.html file in your web browser.
 
-There are some transition effects applied to the buttons and messages.
+-Enter your name and age in the respective fields, then click the Submit button.
 
+-If the data is valid, you will receive a personalized message based on your age.
 
-##### HOW TO RUN THE PROJECT:
-
-Clone or download the files to your local machine.
-
-Open the index.html file in your web browser.
-
-Enter your name and age in the respective fields, then click the Submit button.
-
-If the data is valid, you will receive a personalized message based on your age.
-
-###### NOTES:
+#### 📌 Additional notes
 
 This project was born as a website dedicated to providing support or serving as a vocational guidance tool for people who are entering the world of programming, generating motivational messages based on the user's age.
