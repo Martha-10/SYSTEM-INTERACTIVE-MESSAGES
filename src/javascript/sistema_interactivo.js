@@ -18,10 +18,10 @@ btnExecute.addEventListener('click', function () {
         const age = parseInt(ageInput);
 
         // check if age is not a number 
-        if (isNaN(age)) {
-            throw new Error("❌ The age entered is not a valid number");
+        if (isNaN(age) || age <= 0) {
+            throw new Error("❌ remenber the age is a number greater than zero");
         }
-
+        
     // if there isn't any error, show a success message
     let message;
     if (age < 18) {

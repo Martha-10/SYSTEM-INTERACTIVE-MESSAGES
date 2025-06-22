@@ -11,12 +11,6 @@ header{
     padding: 1rem 0;
 }
 
-img{
-    width: 10%;
-    height: 50%;
-
-}
-
 ul{
     list-style: none;
     display: flex;
